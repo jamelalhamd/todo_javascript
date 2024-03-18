@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(30,0,70);
+}
+.container{
+   
+    direction: rtl;
+
+ 
+   
+   
+   }
+
+   .center{
+
+
+display: flex ;
+justify-content: center;
+align-items: center;
+   }
+
+   .task-table{
+    border-radius: 15px;
+   margin-top: 130px;
+background-color: rgb(194, 202, 202);
+  
+    width:70%;
+}
+.tasks{
+
+justify-content: center;
+display: block;
+
+}
+.header{
+width: 100%;
+border-radius: 15px 15px 0px 0px;
+display: inline-block;
+background-color: blueviolet;
+color: white;
+text-align: center;
+
+
+
+
+
+
+
+
+
+}
+
+.task{
+ 
+  background-color: white;
+ 
+   padding-left: 20px;
+   padding-right: 20px;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 5px;;
+ border-bottom: 1px solid;
+  display: flex;
+transition :box-shadow 0.2s ;
+}
+.task:hover{
+
+box-shadow:0px 3px 15px rgb(97, 97, 97);
+
+
+
+}
+.btn{
+margin-right: 20px;
+margin-top: 20px;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ font-size: 15px;
+ font-weight: bold;
+background-color: azure;
+border: none;
+box-shadow: 0px  3px 5px rgba(255, 255, 255, 0.38);
+
+
+
+
+}
+
+#add{
+
+    float: right;
+    margin-bottom: 8px;
+}
+
+
+
+.titel{
+
+  width: 60%;
+ 
+
+
+
+
+}
+.buttons{
+
+    display: inline;
+
+ justify-content: center;
+ align-items: center;
+ transition: box-shadow 0.2s;
+
+
+}
+.task button:hover{
+
+
+    box-shadow:1px 1px 3px #945d5d;
+
+
+
+}
+.done{
+
+   background-color: rgb(127, 238, 132);
+
+}
